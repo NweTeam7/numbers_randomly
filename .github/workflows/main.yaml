@@ -39,7 +39,7 @@ jobs:
             # For posting a rich message using Block Kit
           payload: |
               {
-                "text": "Name:Nwe Nwe Tun \nMatriculation:abc123 \nEmail:nwe333@gmail.com \nRepo:git://github.com:NweTeam7/numbers_randomly.git \nImage name:nwenwetun/numbers_randomly:${{github.event.release.tag_name}} \nImage url:https://hub.docker.com/repository/docker/nwenwetun/numbers_randomly"
+                "text": "Name: Nwe Nwe Tun \nMatriculation: A0249493N \nEmail: nwe333@gmail.com \nRepo: git://github.com:NweTeam7/numbers_randomly.git \nImage name: nwenwetun/numbers_randomly:${{github.event.release.tag_name}} \nImage url: https://hub.docker.com/repository/docker/nwenwetun/numbers_randomly"
               }
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
